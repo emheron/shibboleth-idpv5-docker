@@ -36,8 +36,10 @@ This Docker image provides a basic setup for Shibboleth Identity Provider v5 run
 ## Volumes
 The following volumes are defined in the Dockerfile:
 - `/opt/shibboleth-idp/logs`: IdP log files.
+- `/opt/tomcat/logs`: Tomcat log files.
 - `/opt/shibboleth-idp/metadata`: Metadata files.
-- `/opt/shibboleth-idp/conf`: Configuration files.
+- `/opt/shibboleth-idp/conf`: IdP Configuration files.
+- `/opt/tomcat/conf`: Tomcat Configuration files.
 
 ## Ports
 The container exposes the following ports:
