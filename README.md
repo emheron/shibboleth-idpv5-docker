@@ -10,7 +10,7 @@ This Docker image provides a basic setup for Shibboleth Identity Provider v5 run
 ## Quick Start
 1. **Clone the Repository:**
    ```
-   git clone [repository URL]
+   git clone https://github.com/emheron/shibboleth-idpv5-docker.git
    cd shibboleth-idpv5-docker
    ```
 
