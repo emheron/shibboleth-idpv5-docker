@@ -1,7 +1,7 @@
 # Shibboleth Identity Provider v5 Docker Image
 
 ## Introduction
-This Docker image provides a basic setup for Shibboleth Identity Provider v5 running on Apache Tomcat, based on the latest Ubuntu LTS image. It's designed to be a starting point for setting up a Shibboleth IdP environment.
+This Docker image provides a basic setup for [Shibboleth Identity Provider v5](https://shibboleth.atlassian.net/wiki/spaces/IDP5/overview) running on Apache Tomcat, based on the latest Ubuntu LTS image. It's designed to be a starting point for setting up a Shibboleth IdP environment.
 
 ## Prerequisites
 - Docker installed on your system.
