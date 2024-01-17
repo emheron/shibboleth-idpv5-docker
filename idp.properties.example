@@ -1,0 +1,8 @@
+# idp.properties
+idp.target.dir=/path/to/idpHome
+idp.entityID=your_entityID
+idp.host.name=your-hostname
+idp.scope=your-domain-name
+idp.keysize=3072
+idp.keystore.password=changeit
+idp.sealer.password=changeit
