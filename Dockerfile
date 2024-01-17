@@ -48,7 +48,7 @@ RUN wget -P /opt/tomcat/lib/ https://repo.maven.apache.org/maven2/jakarta/servle
 RUN rm -rf "/opt/shibboleth-identity-provider-${SHIBBOLETH_VERSION}"
 
 # Define volumes for logs, metadata, and configuration
-VOLUME ["/opt/shibboleth-idp/logs", "/opt/shibboleth-idp/metadata", "/opt/shibboleth-idp/conf"]
+VOLUME ["/opt/tomcat/logs", "/opt/shibboleth-idp/logs", "/opt/shibboleth-idp/metadata", "/opt/shibboleth-idp/conf"]
 
 # Expose the ports Tomcat and Shibboleth IdP are running on
 EXPOSE 8443 8080 443
